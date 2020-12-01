@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="participant"
+>
+  <div
+    className="image"
+  >
+    <img
+      alt="Picture of person"
+      className="participant-image"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <h2>
+      Will
+    </h2>
+    <ul
+      className="listOn"
+    >
+      <li>
+         on stage
+      </li>
+    </ul>
+  </div>
+</div>
+`;
