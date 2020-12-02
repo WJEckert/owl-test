@@ -1,13 +1,13 @@
 import React from 'react';
-import store from "./STORE.js";
 import Participant from './participant.js';
+import store from './STORE.js'
 
-function participantList(props) {
+function participantList() {
     
     return (
         <section className = 'list'>
             <div className = 'list-cycle'>
-                {props.participants.map((participants) =>
+                {store.map((participants) =>
                     <Participant
                     key={participants.id}
                     name={participants.name}
@@ -15,6 +15,16 @@ function participantList(props) {
                     onStage = {participants.onStage}
                     inSession = {participants.inSession}
                     />
+                ).sort(function (participant){
+                    if (participant.props.inSession === false){
+                        console.log('1')
+                        return 1;
+                    }
+                    else {
+                        console.log(participant)
+                        console.log('-1')
+                        return -1;
+                    }}
                 )}
             </div>
         </section>

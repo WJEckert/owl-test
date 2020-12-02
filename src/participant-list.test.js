@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import store from './STORE.js';
 import ParticipantList from './participant-list.js';
 
 it('renders without crashing', () => {

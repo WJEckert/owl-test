@@ -1,5 +1,4 @@
 import React from 'react';
-//import store from "./STORE.js"
 
 function participant(props){
     if (props.inSession === true){

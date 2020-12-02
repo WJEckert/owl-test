@@ -16,6 +16,87 @@ exports[`renders the UI as expected 1`] = `
         <img
           alt="Picture of person"
           className="participant-image"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <div
+        className="info"
+      >
+        <h2>
+          Ashla Attwool
+        </h2>
+        <ul
+          className="listOn"
+        >
+          <li>
+             on stage
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="participant"
+    >
+      <div
+        className="image"
+      >
+        <img
+          alt="Picture of person"
+          className="participant-image"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <div
+        className="info"
+      >
+        <h2>
+          Frank Runciman
+        </h2>
+        <ul
+          className="listOn"
+        >
+          <li>
+             in session
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="participant"
+    >
+      <div
+        className="image"
+      >
+        <img
+          alt="Picture of person"
+          className="participant-image"
+          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <div
+        className="info"
+      >
+        <h2>
+          Caty Flucker
+        </h2>
+        <ul
+          className="listOn"
+        >
+          <li>
+             in session
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="participant"
+    >
+      <div
+        className="image"
+      >
+        <img
+          alt="Picture of person"
+          className="participant-image"
           src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
         />
       </div>
@@ -23,13 +104,40 @@ exports[`renders the UI as expected 1`] = `
         className="info"
       >
         <h2>
-          Will
+          Koren Templeton
         </h2>
         <ul
           className="listOn"
         >
           <li>
              on stage
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="participant"
+    >
+      <div
+        className="image"
+      >
+        <img
+          alt="Picture of person"
+          className="participant-image"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <div
+        className="info"
+      >
+        <h2>
+          Axe Kubicka
+        </h2>
+        <ul
+          className="listOff"
+        >
+          <li>
+             left session
           </li>
         </ul>
       </div>
